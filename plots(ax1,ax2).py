@@ -5,8 +5,7 @@ import matplotlib.ticker as ticker
 
 plt.style.use('seaborn')
 # import data (value, columns)
-data = pd.read_csv('https://gist.githubusercontent.com/serhiichechko/4468779ae9f6ed9069355ba2d1d4b4e4/raw'
-                   '/eb7ee691709c1cfcf273dd377c3b020c23e5c4f0/dataset_md0419-20.csv')
+data = pd.read_csv('https://raw.githubusercontent.com/serhiichechko/python_data/master/dataset_md0419-20.csv?token=APHXKII6QJ34DTDB6LG2V626TVW4A')
 dt = data['mmdd']
 qnt_19 = data['qnt19']
 sum_top_19 = data['sum19']
